@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="개인 포트폴리오 웹사이트" />
+  <title>PORTFOLIO — 김능환</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="홈으로 이동">
+        <span class="brand-text">nouuk<span>.</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="주요 메뉴">
+        <a href="#profile">인적 사항</a>
+        <a href="#career">진로 활동</a>
+        <a href="#activities">주요활동</a>
+        <a href="#projects">프로젝트</a>
+      </nav>
+
+      <button class="menu-btn" id="menuToggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-panel" id="mobilePanel" aria-label="모바일 메뉴">
+      <a href="#profile">인적 사항</a>
+      <a href="#career">진로 활동</a>
+      <a href="#activities">주요활동</a>
+      <a href="#projects">프로젝트</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> PORTFOLIO 2026</p>
+          <h1>안녕하세요<br /><em>김능환</em>입니다.</h1>
+          <a class="btn btn-primary" href="#profile">포트폴리오 살펴보기 <span>↓</span></a>
+        </div>
+
+    </section>
+
+    <!-- 01. 인적 사항 -->
+    <section class="section profile" id="profile">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-number">01</span>
+          <div>
+            <p class="eyebrow">PROFILE</p>
+            <h2>자기소개<span>.</span></h2>
+          </div>
+        </div>
+        <br>
+        <div class="profile-grid">
+          <div class="profile-info">
+            <div class="info-title">
+              <p class="profile-role">SUNRIN 121st COMPUTER SECURITY </p>
+              <h3>김능환</h3>
+            </div>
+
+            <div class="info-table">
+              <div><span>생년월일</span><strong>2010.12.08</strong></div>
+              <div><span>학교</span><strong>선린 인터넷 고등학교 / 정보보호과</strong></div>
+              <div><span>이메일</span><strong>nouuuk2@gmail.com</strong></div>
+              <div><span>관심 분야</span><strong>프론트 엔드· 서버 · 네트워크</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="strength-section">
+          <div class="strength-heading">
+            <p class="eyebrow">MY STRENGTHS</p>
+            <h3>나의 강점<span>.</span></h3>
+          </div>
+
+          <div class="strength-list">
+
+            <article class="strength-item">
+              <div>
+                <h4>신중성</h4>
+                <p>
+                  충동적으로 행동하지 않고 미리 생각합니다.
+                </p>
+              </div>
+            </article>
+
+            <article class="strength-item">
+              <div>
+                <h4>시민의식</h4>
+                <p>
+                  공동체를 소중히 여기고 협동과 책임감을 발휘 합니다.
+                </p>
+              </div>
+            </article>
+
+            <article class="strength-item">
+              <div>
+                <h4>유머</h4>
+                <p>
+                  웃음과 즐거움을 통해 분위기를 밝게 만들기 위해<br>노력합니다.
+                </p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        
+        <div class="value-panel">
+          <div>
+            <h3>배운 것을 행동으로<br /><span>옮기는 사람.</span></h3>
+          </div>
+          <div class="value-copy">
+            <p>
+              저는 새로운 것을 배우는 것에서 끝내기보다, 직접 적용하고 결과물을 만들어 보는 과정을 중요하게 생각합니다.
+              작은 실패나 부족한 부분도 성장의 과정이라고 생각하며, 한 번 더 시도하고 개선하는 태도를 가지고 있습니다.
+            </p>
+            <p>
+              앞으로도 제가 가진 호기심과 꾸준함을 바탕으로 다양한 경험을 쌓고,
+              저만의 강점을 실제 결과물로 보여주는 사람이 되고 싶습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. 진로 활동 -->
+    <section class="section career" id="career">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-number">02</span>
+          <div>
+            <p class="eyebrow">CAREER ACTIVITY</p>
+            <h2>관심 분야 및<br /><span>진로의 방향.</span></h2>
+          </div>
+        </div>
+
+        <div class="career-cards">
+          <article class="career-card">
+            <h3>관심 분야</h3>
+            <p>프론트 엔드 개발 / 서버 / 네트워크</p>
+          </article>
+
+          <article class="career-card career-card-accent">
+            <h3>관심 직업</h3>
+            <p>웹 프론트엔드 개발자 / 정보 교사 <br> 데이터 베이스 관리자</p>
+          </article>
+
+          <article class="career-card">
+            <h3>관심 학과</h3>
+            <p>컴퓨터공학과 / 컴퓨터 교육과</p>
+          </article>
+        </div>
+
+        <div class="career-note">
+          <p class="eyebrow">LEARNING JOURNEY</p>
+          <p>수업과 진로 활동에서 경험한 내용을 사진과 함께 기록했습니다.</p>
+        </div>
+
+        <div class="slider" aria-label="학습지 활동 사진 슬라이더">
+          <button class="slider-btn prev" id="prevBtn" type="button" aria-label="이전 사진">←</button>
+
+          <div class="slide-window">
+            <div class="slide-track" id="slideTrack">
+              <div class="slide"><img class="activity-image" data-full="images/activity-01.jpg" src="images/activity-01.jpg" alt="학습지 활동 사진 1"  /><span>01 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-02.jpg" src="images/activity-02.jpg" alt="학습지 활동 사진 2" /><span>02 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-03.jpg" src="images/activity-03.jpg" alt="학습지 활동 사진 3" /><span>03 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-04.jpg" src="images/activity-04.jpg" alt="학습지 활동 사진 4" /><span>04 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-05.jpg" src="images/activity-05.jpg" alt="학습지 활동 사진 5" /><span>05 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-06.jpg" src="images/activity-06.jpg" alt="학습지 활동 사진 6" /><span>06 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-07.jpg" src="images/activity-07.jpg" alt="학습지 활동 사진 7" /><span>07 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-08.jpg" src="images/activity-08.jpg" alt="학습지 활동 사진 8" /><span>08 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-09.jpg" src="images/activity-09.jpg" alt="학습지 활동 사진 9" /><span>09 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-10.jpg" src="images/activity-10.jpg" alt="학습지 활동 사진 10" /><span>10 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-11.jpg" src="images/activity-11.jpg" alt="학습지 활동 사진 11" /><span>11 / 12</span></div>
+              <div class="slide"><img class="activity-image" data-full="images/activity-12.jpg" src="images/activity-12.jpg" alt="학습지 활동 사진 12" /><span>12 / 12</span></div>
+            </div>
+          </div>
+
+          <button class="slider-btn next" id="nextBtn" type="button" aria-label="다음 사진">→</button>
+        </div>
+
+        <div class="slider-footer">
+          <div class="slider-count"><strong id="currentSlide">01</strong><span>/ 12</span></div>
+          <div class="dots" id="dots" aria-label="사진 선택"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. 주요활동 -->
+    <section class="section activities" id="activities">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-number">03</span>
+          <div>
+            <p class="eyebrow">MAIN ACTIVITIES</p>
+            <h2>주요 <span></span>활동</span></h2>
+          </div>
+        </div>
+
+        <div class="club-grid">
+          <article class="club-card">
+
+            <div class="club-header">
+
+              <div class="club-logo">
+                <img src="images/QWERTY.jpg" alt="동아리 1 로고">
+              </div>
+
+              <div class="club-title">
+                <p class="club-label">일반 동아리</p>
+                <h3>QWERTY</h3>
+              </div>
+
+            </div>
+
+            <div class="club-body">
+              <p>
+                웹 개발 일반 동아리인 QWERTY에 참여하여 HTML, CSS, JavaScript를 배우고, 방학 프로젝트에 참여하여 실전 경험을 쌓을 수 있었습니다.
+              </p>
+            </div>
+
+          </article>
+
+          <article class="club-card">
+
+            <div class="club-header">
+
+              <div class="club-logo">
+                <img src="images/Trinity.jpg" alt="동아리 1 로고">
+              </div>
+
+              <div class="club-title">
+                <p class="club-label">자율 동아리</p>
+                <h3>TRINITY</h3>
+              </div>
+
+            </div>
+
+            <div class="club-body">
+              <p>
+                 자율 동아리 TRINTY에 참여하여 서버, 네트워크, 보안에 대한 전공 역량을 키울 수 있었습니다.
+              </p>
+            </div>
+
+          </article>
+
+          <article class="club-card">
+
+            <div class="club-header">
+
+              <div class="club-logo">
+                <img src="images/STEB.jpg" alt="동아리 1 로고">
+              </div>
+
+              <div class="club-title">
+                <p class="club-label">자율 동아리</p>
+                <h3>S.T.E.B</h3>
+              </div>
+
+            </div>
+
+            <div class="club-body">
+              <p>
+                자율 동아리 밴드부 S.T.E.B에 참여하여 합주 등 활동을 통해 협력 능력을 키울 수 있었습니다.
+              </p>
+            </div>
+
+          </article>
+
+        </div>
+
+        <div class="language-section">
+          <div class="language-heading">
+            <div>
+              <p class="eyebrow">LANGUAGE & SKILLS</p>
+              <h3>사용 언어 및<br /><span>숙련도</span></h3>
+            </div>
+          </div>
+
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="bar-track"><div class="bar-fill" style="--level:75%"></div></div>
+              <strong>HTML</strong>
+            </div>
+            <div class="skill-bar">
+              <div class="bar-track"><div class="bar-fill" style="--level:65%"></div></div>
+              <strong>CSS</strong>
+            </div>
+            <div class="skill-bar">
+              <div class="bar-track"><div class="bar-fill" style="--level:60%"></div></div>
+              <strong>JavaScript</strong>
+            </div>
+            <div class="skill-bar">
+              <div class="bar-track"><div class="bar-fill" style="--level:50%"></div></div>
+              <strong>Python</strong>
+            </div>
+            <div class="skill-bar">
+              <div class="bar-track"><div class="bar-fill" style="--level:70%"></div></div>
+              <strong>C</strong>
+            </div>
+            <div class="skill-bar">
+              <div class="bar-track"><div class="bar-fill" style="--level:10%"></div></div>
+              <strong>GolfScript</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. 프로젝트 -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-number">04</span>
+          <div>
+            <p class="eyebrow">PROJECTS</p>
+            <h2>주요 프로젝트<br /><span>네 가지.</span></h2>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <div class="project-visual visual-orange"><img src="images/카페인-계산기 2.png" alt=""><span>PROJECT 01</span></div>
+            <div class="project-body">
+              <h3>카페인 계산기</h3>
+              <p>매일 같이 카페인 음료를 마시는 사람들을 위한 절약 도우미를 개발하였습니다.</p>
+              <dl class="project-meta">
+                <div><dt>역할</dt><dd>기획 / 디자인 / 개발</dd></div>
+                <div><dt>기간</dt><dd>2026.07 — 2026.07</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-visual visual-dark"><img src="images/왁뿌볼-시뮬레이터 1.png" alt=""><span>PROJECT 02</span></div>
+              <h3>왁뿌볼 부수기</h3>
+              <p>최근 유행하는 '왁뿌볼'이라는 주제를 활용한 어디서든 즐길수 있는 피젯토이를 개발하였습니다.</p>
+              <dl class="project-meta">
+                <div><dt>역할</dt><dd>기획 / 디자인 / 개발</dd></div>
+                <div><dt>기간</dt><dd>2026.07 — 2026.07</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-visual visual-gray"><img src="images/Stackbox.png" alt=""><span>PROJECT 03</span></div>
+            <div class="project-body">
+              <h3>StackBox</h3>
+              <p>문서, 아이디어, 코드, 실행 환경을 하나의 공간에 통합한 협업형 워크스페이스</p>
+              <dl class="project-meta">
+                <div><dt>역할</dt><dd>디자인</dd></div>
+                <div><dt>기간</dt><dd>2026.07 — 2026.08</dd></div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<div class="image-modal" id="imageModal" aria-hidden="true">
+  <button class="modal-close" id="modalClose" type="button" aria-label="이미지 닫기">
+    ×
+  </button>
+
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+
+  <div class="modal-content">
+    <img id="modalImage" src="" alt="" />
+  </div>
+</div>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <span>© 2026 NEUNG. PORTFOLIO</span>
+      <button class="top-btn" id="topBtn" type="button">TOP ↑</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
